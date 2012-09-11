@@ -1,1 +1,1 @@
-tilestache: gunicorn -b 0.0.0.0:$PORT tileserver
+tilestache: gunicorn -b 0.0.0.0:$PORT --log-level=DEBUG tileserver
