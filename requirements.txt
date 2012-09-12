@@ -2,8 +2,8 @@ boto==2.5.2
 gunicorn==0.14.6
 ModestMaps==1.4.1
 PIL==1.1.7
+pylibmc==1.2.3
+pysqlite==2.6.3
 python-memcached==1.48
 TileStache==1.40.1
 Werkzeug==0.8.3
-pylibmc
-pysqlite
