@@ -16,10 +16,10 @@ else:
     cache = {"name": "Test"}
 
 cache = {
-  'name': 'memcache',
-  'servers': [os.environ.get('MEMCACHE_SERVERS')],
-  'username': os.environ.get('MEMCACHE_USERNAME'),
-  'password': os.environ.get('MEMCACHE_PASSWORD'),
+  'name': 'Memcache',
+  'servers': [os.environ.get('MEMCACHIER_SERVERS')],
+  'username': os.environ.get('MEMCACHIER_USERNAME'),
+  'password': os.environ.get('MEMCACHIER_PASSWORD'),
 }
 
 config_dict = {
