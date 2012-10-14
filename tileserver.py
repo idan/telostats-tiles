@@ -6,7 +6,7 @@ import TileStache
 
 cache = {
     "name": "Redis",
-    "url": os.getenv('REDISTOGO_URL')
+    "url": os.getenv('OPENREDIS_URL')
 }
 
 config_dict = {
