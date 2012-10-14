@@ -15,6 +15,12 @@ if 'AWS_ACCESS_KEY_ID' in os.environ and \
 else:
     cache = {"name": "Test"}
 
+cache = {
+  'name': 'memcache',
+  'servers': [os.environ.get('MEMCACHE_SERVERS')],
+  'username': os.environ.get('MEMCACHE_USERNAME'),
+  'password': os.environ.get('MEMCACHE_PASSWORD'),
+}
 
 config_dict = {
   "cache": cache,
