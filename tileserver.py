@@ -1,12 +1,9 @@
-import logging
 import os
-import json
-
 import TileStache
 
 cache = {
     "name": "Redis",
-    "url": os.getenv('OPENREDIS_URL')
+    "url": os.getenv('OPENREDIS_URL', 'redis://localhost:6379')
 }
 
 config_dict = {
