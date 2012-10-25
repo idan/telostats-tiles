@@ -1,6 +1,6 @@
 ModestMaps==1.4.1
 PIL==1.1.7
--e git://github.com/yuvadm/TileStache.git@f986b2dcbbc8a76e36c5f5f3a08084cc330ced93#egg=TileStache-dev
+-e git://github.com/yuvadm/TileStache.git@ceaffe5e95d8f99e4b1643bdebbbc61918d267cc#egg=TileStache-dev
 Werkzeug==0.8.3
 boto==2.5.2
 gunicorn==0.14.6
