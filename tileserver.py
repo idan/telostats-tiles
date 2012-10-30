@@ -11,7 +11,8 @@ config_dict = {
   'layers': {
     'telaviv': {
         'provider': {'name': 'mbtiles', 'tileset': 'Telostats.mbtiles'},
-        'projection': 'spherical mercator'
+        'projection': 'spherical mercator',
+        'maximum cache age': 604800,
     }
   }
 }
