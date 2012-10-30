@@ -2,16 +2,16 @@ import os
 import TileStache
 
 cache = {
-    "name": "Redis",
-    "url": os.getenv('OPENREDIS_URL', 'redis://localhost:6379')
+    'name': 'Redis',
+    'url': os.getenv('OPENREDIS_URL', 'redis://localhost:6379')
 }
 
 config_dict = {
-  "cache": cache,
-  "layers": {
-    "telaviv": {
-        "provider": {"name": "mbtiles", "tileset": "Telostats.mbtiles"},
-        "projection": "spherical mercator"
+  'cache': cache,
+  'layers': {
+    'telaviv': {
+        'provider': {'name': 'mbtiles', 'tileset': 'Telostats.mbtiles'},
+        'projection': 'spherical mercator'
     }
   }
 }
