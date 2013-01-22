@@ -3,8 +3,8 @@
 ## Dev
 
 ```bash
-$ cd telostats
-$ mkvirtualenv telostats
+$ cd telostats-tiles
+$ mkvirtualenv telostats-tiles
 $ pip install -r requirements.txt
 ```
 
