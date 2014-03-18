@@ -3,7 +3,7 @@ import TileStache
 
 cache = {
     'name': 'Redis',
-    'url': os.getenv('OPENREDIS_URL', 'redis://localhost:6379')
+    'url': os.getenv('REDISTOGO_URL', 'redis://localhost:6379')
 }
 
 config_dict = {
