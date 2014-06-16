@@ -1,10 +1,8 @@
-ModestMaps==1.4.1
+ModestMaps==1.4.6
 PIL==1.1.7
 -e git://github.com/yuvadm/TileStache.git@ee353af1e76c3db3d0e23ecab3d7fb25c4741634#egg=TileStache-dev
-Werkzeug==0.8.3
-boto==2.5.2
-gunicorn==0.14.6
-honcho==0.5.0
+Werkzeug==0.9.6
+boto==2.29.1
+gunicorn==19.0.0
 pysqlite==2.6.3
-redis==2.7.1
-wsgiref==0.1.2
+redis==2.10.1
